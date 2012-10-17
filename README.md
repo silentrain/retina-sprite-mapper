@@ -5,4 +5,4 @@ Example project for making retina sprites, see example.html and retina-sprites.s
 
 Requirements: Sass + Compass
 
-Example icons used in this example are from [Iconic](http://somerandomdude.com/work/iconic/) by @somerandomdude.
+Example icons used in this example are from [Iconic](http://somerandomdude.com/work/iconic/) by @somerandomdude
