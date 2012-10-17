@@ -12,6 +12,11 @@ body {
   width: 18em;
 }
 
+footer {
+  text-align: center;
+  width: 100%;
+}
+
 ul.iconic li {
   @include no-bullet;
   i, p { @include inline-block; }
