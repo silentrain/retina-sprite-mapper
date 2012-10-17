@@ -3,6 +3,10 @@ Retina Sprite Mapper Mixins
 
 Example project for making retina sprites.
 
+**Requirements:**
+
+Sass 3.2 + Compass
+
 **Features:**
 
 * x,y offset & padding
@@ -18,10 +22,7 @@ Example project for making retina sprites.
 
 See [retina-sprites.scss](https://github.com/krisbulman/retina-sprite-mapper/blob/master/sass/_retina-sprites.scss) for implimentation & testing.
 
-Requirements: Sass + Compass
-
-Icons used in this example project are from [Iconic](https://github.com/somerandomdude/Iconic) by P.J. Onori // @[somerandomdude](https://github.com/somerandomdude). 
-
+**Simple Execution:**
 ```ruby
 /* Assign paths using standard Compass sprite method. */
 $sprites: sprite-map("icons/*.png", $spacing: 1px); // import normal sprites
@@ -38,3 +39,7 @@ $sprites2x: sprite-map("icons-retina/*.png", $spacing: 2px); // import 2x sprite
  @include retina-sprite-item('target', $sprites, $sprites2x);
 }
 ```
+
+**Attribution:**
+
+Icons used in this example project are from [Iconic](https://github.com/somerandomdude/Iconic) by P.J. Onori // @[somerandomdude](https://github.com/somerandomdude). 
