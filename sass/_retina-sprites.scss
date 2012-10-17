@@ -62,6 +62,7 @@
     // Put the height/width of the image in
     width: image-width($sprite-file);
     height: image-height($sprite-file);
+
   }
 
   @if $padding > 0 {
