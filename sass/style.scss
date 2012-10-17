@@ -1,13 +1,13 @@
 @import 'retina-sprites';
 
-$sprites: sprite-map("icons/*.png", $spacing: 1px); // import normal sprites
-$sprites2x: sprite-map("icons-retina/*.png", $spacing: 2px); // import 2x sprites
-@include generate-sprite-map($sprites, $sprites2x);
-
-ul li {
+ul.iconic li {
   padding-left: 1.5em;
   @include no-bullet;
 }
+
+$sprites: sprite-map("icons/*.png", $spacing: 1px); // import normal sprites
+$sprites2x: sprite-map("icons-retina/*.png", $spacing: 2px); // import 2x sprites
+@include generate-sprite-map($sprites, $sprites2x);
 
 @include retina-sprite-classes($sprites, $sprites2x);
 
