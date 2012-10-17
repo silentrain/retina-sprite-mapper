@@ -7,28 +7,28 @@ ul.iconic li {
 }
 
 /* line 13, ../sass/_retina-sprites.scss */
-.aperture, .aperture_alt, .arrow_down, .arrow_down_alt1, .arrow_down_alt2, .arrow_left, .arrow_left_alt1, .arrow_left_alt2, .arrow_right, .arrow_right_alt1, .arrow_right_alt2, .arrow_up, .arrow_up_alt1, .arrow_up_alt2, .article, .at, .bars, .bolt, .book_alt, .box, .brush, .brush_alt, .calendar, .calendar_alt_fill, .calendar_alt_stroke, .camera, .cd, .chart, .chat, .chat_alt_fill, .chat_alt_stroke, .check_alt, .clock, .cloud_download, .cloud_upload, .cog, .compass, .cursor {
+.icon-aperture, .icon-aperture_alt, .icon-arrow_down, .icon-arrow_down_alt1, .icon-arrow_down_alt2, .icon-arrow_left, .icon-arrow_left_alt1, .icon-arrow_left_alt2, .icon-arrow_right, .icon-arrow_right_alt1, .icon-arrow_right_alt2, .icon-arrow_up, .icon-arrow_up_alt1, .icon-arrow_up_alt2, .icon-article, .icon-at, .icon-bars, .icon-bolt, .icon-book_alt, .icon-box, .icon-brush, .icon-brush_alt, .icon-calendar, .icon-calendar_alt_fill, .icon-calendar_alt_stroke, .icon-camera, .icon-cd, .icon-chart, .icon-chat, .icon-chat_alt_fill, .icon-chat_alt_stroke, .icon-check_alt, .icon-clock, .icon-cloud_download, .icon-cloud_upload, .icon-cog, .icon-compass, .icon-cursor {
   background-image: url('../images/icons-s3cba2d8ded.png');
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 21, ../sass/_retina-sprites.scss */
-  .aperture, .aperture_alt, .arrow_down, .arrow_down_alt1, .arrow_down_alt2, .arrow_left, .arrow_left_alt1, .arrow_left_alt2, .arrow_right, .arrow_right_alt1, .arrow_right_alt2, .arrow_up, .arrow_up_alt1, .arrow_up_alt2, .article, .at, .bars, .bolt, .book_alt, .box, .brush, .brush_alt, .calendar, .calendar_alt_fill, .calendar_alt_stroke, .camera, .cd, .chart, .chat, .chat_alt_fill, .chat_alt_stroke, .check_alt, .clock, .cloud_download, .cloud_upload, .cog, .compass, .cursor {
+  .icon-aperture, .icon-aperture_alt, .icon-arrow_down, .icon-arrow_down_alt1, .icon-arrow_down_alt2, .icon-arrow_left, .icon-arrow_left_alt1, .icon-arrow_left_alt2, .icon-arrow_right, .icon-arrow_right_alt1, .icon-arrow_right_alt2, .icon-arrow_up, .icon-arrow_up_alt1, .icon-arrow_up_alt2, .icon-article, .icon-at, .icon-bars, .icon-bolt, .icon-book_alt, .icon-box, .icon-brush, .icon-brush_alt, .icon-calendar, .icon-calendar_alt_fill, .icon-calendar_alt_stroke, .icon-camera, .icon-cd, .icon-chart, .icon-chat, .icon-chat_alt_fill, .icon-chat_alt_stroke, .icon-check_alt, .icon-clock, .icon-cloud_download, .icon-cloud_upload, .icon-cog, .icon-compass, .icon-cursor {
     background-image: url('../images/icons-retina-s66fe6f5586.png');
     background-repeat: no-repeat;
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.aperture {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-aperture {
   width: 16px;
   height: 16px;
   background-position: 0 -17px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .aperture {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-aperture {
     background-position: 0 0;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -37,15 +37,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.aperture_alt {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-aperture_alt {
   width: 16px;
   height: 16px;
   background-position: 0 0;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .aperture_alt {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-aperture_alt {
     background-position: 0 -51px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -54,15 +54,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_down {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_down {
   width: 16px;
   height: 16px;
   background-position: 0 -476px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_down {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_down {
     background-position: 0 -442px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -71,15 +71,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_down_alt1 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_down_alt1 {
   width: 16px;
   height: 16px;
   background-position: 0 -204px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_down_alt1 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_down_alt1 {
     background-position: 0 -238px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -88,15 +88,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_down_alt2 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_down_alt2 {
   width: 16px;
   height: 16px;
   background-position: 0 -306px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_down_alt2 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_down_alt2 {
     background-position: 0 -323px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -105,15 +105,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_left {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_left {
   width: 16px;
   height: 16px;
   background-position: 0 -561px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_left {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_left {
     background-position: 0 -544px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -122,15 +122,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_left_alt1 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_left_alt1 {
   width: 16px;
   height: 16px;
   background-position: 0 -255px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_left_alt1 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_left_alt1 {
     background-position: 0 -306px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -139,15 +139,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_left_alt2 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_left_alt2 {
   width: 16px;
   height: 16px;
   background-position: 0 -442px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_left_alt2 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_left_alt2 {
     background-position: 0 -357px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -156,15 +156,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_right {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_right {
   width: 16px;
   height: 16px;
   background-position: 0 -510px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_right {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_right {
     background-position: 0 -527px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -173,15 +173,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_right_alt1 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_right_alt1 {
   width: 16px;
   height: 16px;
   background-position: 0 -374px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_right_alt1 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_right_alt1 {
     background-position: 0 -340px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -190,15 +190,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_right_alt2 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_right_alt2 {
   width: 16px;
   height: 16px;
   background-position: 0 -425px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_right_alt2 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_right_alt2 {
     background-position: 0 -374px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -207,15 +207,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_up {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_up {
   width: 16px;
   height: 16px;
   background-position: 0 -357px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_up {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_up {
     background-position: 0 -391px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -224,15 +224,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_up_alt1 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_up_alt1 {
   width: 16px;
   height: 16px;
   background-position: 0 -221px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_up_alt1 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_up_alt1 {
     background-position: 0 -255px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -241,15 +241,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.arrow_up_alt2 {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-arrow_up_alt2 {
   width: 16px;
   height: 16px;
   background-position: 0 -323px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .arrow_up_alt2 {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-arrow_up_alt2 {
     background-position: 0 -289px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -258,15 +258,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.article {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-article {
   width: 16px;
   height: 16px;
   background-position: 0 -612px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .article {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-article {
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -274,15 +274,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.at {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-at {
   width: 16px;
   height: 16px;
   background-position: 0 -68px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .at {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-at {
     background-position: 0 -17px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -291,15 +291,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.bars {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-bars {
   width: 16px;
   height: 16px;
   background-position: 0 -629px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .bars {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-bars {
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -307,15 +307,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.bolt {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-bolt {
   width: 16px;
   height: 16px;
   background-position: 0 -391px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .bolt {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-bolt {
     background-position: 0 -408px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -324,15 +324,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.book_alt {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-book_alt {
   width: 16px;
   height: 16px;
   background-position: 0 -544px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .book_alt {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-book_alt {
     background-position: 0 -510px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -341,15 +341,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.box {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-box {
   width: 16px;
   height: 16px;
   background-position: 0 -595px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .box {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-box {
     background-position: 0 -578px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -358,15 +358,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.brush {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-brush {
   width: 16px;
   height: 16px;
   background-position: 0 -408px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .brush {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-brush {
     background-position: 0 -425px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -375,15 +375,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.brush_alt {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-brush_alt {
   width: 16px;
   height: 16px;
   background-position: 0 -493px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .brush_alt {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-brush_alt {
     background-position: 0 -476px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -392,15 +392,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.calendar {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-calendar {
   width: 16px;
   height: 16px;
   background-position: 0 -578px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .calendar {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-calendar {
     background-position: 0 -595px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -409,15 +409,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.calendar_alt_fill {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-calendar_alt_fill {
   width: 16px;
   height: 16px;
   background-position: 0 -459px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .calendar_alt_fill {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-calendar_alt_fill {
     background-position: 0 -493px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -426,15 +426,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.calendar_alt_stroke {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-calendar_alt_stroke {
   width: 16px;
   height: 16px;
   background-position: 0 -527px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .calendar_alt_stroke {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-calendar_alt_stroke {
     background-position: 0 -561px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -443,15 +443,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.camera {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-camera {
   width: 16px;
   height: 16px;
   background-position: 0 -136px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .camera {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-camera {
     background-position: 0 -187px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -460,15 +460,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.cd {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-cd {
   width: 16px;
   height: 16px;
   background-position: 0 -340px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .cd {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-cd {
     background-position: 0 -272px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -477,15 +477,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.chart {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-chart {
   width: 16px;
   height: 16px;
   background-position: 0 -102px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .chart {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-chart {
     background-position: 0 -119px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -494,15 +494,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.chat {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-chat {
   width: 16px;
   height: 16px;
   background-position: 0 -34px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .chat {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-chat {
     background-position: 0 -68px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -511,15 +511,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.chat_alt_fill {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-chat_alt_fill {
   width: 16px;
   height: 16px;
   background-position: 0 -187px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .chat_alt_fill {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-chat_alt_fill {
     background-position: 0 -153px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -528,15 +528,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.chat_alt_stroke {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-chat_alt_stroke {
   width: 16px;
   height: 16px;
   background-position: 0 -51px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .chat_alt_stroke {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-chat_alt_stroke {
     background-position: 0 -85px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -545,15 +545,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.check_alt {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-check_alt {
   width: 16px;
   height: 16px;
   background-position: 0 -272px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .check_alt {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-check_alt {
     background-position: 0 -221px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -562,15 +562,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.clock {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-clock {
   width: 16px;
   height: 16px;
   background-position: 0 -119px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .clock {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-clock {
     background-position: 0 -102px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -579,15 +579,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.cloud_download {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-cloud_download {
   width: 16px;
   height: 16px;
   background-position: 0 -238px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .cloud_download {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-cloud_download {
     background-position: 0 -170px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -596,15 +596,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.cloud_upload {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-cloud_upload {
   width: 16px;
   height: 16px;
   background-position: 0 -170px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .cloud_upload {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-cloud_upload {
     background-position: 0 -204px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -613,15 +613,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.cog {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-cog {
   width: 16px;
   height: 16px;
   background-position: 0 -153px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .cog {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-cog {
     background-position: 0 -136px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -630,15 +630,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.compass {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-compass {
   width: 16px;
   height: 16px;
   background-position: 0 -85px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .compass {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-compass {
     background-position: 0 -34px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
@@ -647,15 +647,15 @@ ul.iconic li {
   }
 }
 
-/* line 109, ../sass/_retina-sprites.scss */
-.cursor {
+/* line 110, ../sass/_retina-sprites.scss */
+.icon-cursor {
   width: 16px;
   height: 16px;
   background-position: 0 -289px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 109, ../sass/_retina-sprites.scss */
-  .cursor {
+  /* line 110, ../sass/_retina-sprites.scss */
+  .icon-cursor {
     background-position: 0 -459px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;

@@ -81,6 +81,7 @@
   only screen and (        min-device-pixel-ratio: 2),
   only screen and (                min-resolution: 192dpi),
   only screen and (                min-resolution: 2dppx) {
+    // Both sprite maps are rarely the same order, this safeguards against incorrect background placement.
     @if (nth(sprite-position($retina-sprite-map, $sprite),2) != 2*nth(sprite-position($sprite-map, $sprite),2) ) {
       background-position: $offset-x round(nth(sprite-position($retina-sprite-map,  $sprite, 0, 2*$offset-y), 2)/ 2);
     }
