@@ -132,7 +132,7 @@
     $all-items: sprite-names($sprites-normal);
     @each $sprite in $all-items{
     .#{$prefix}#{$sprite} {
-      @include retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding, $offset-x, $offset-y, $with-dimensions);
+      @include retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding, $offset-x, $offset-y, $with-dimensions, $device-pixel-ratio);
     }
   }
 }
