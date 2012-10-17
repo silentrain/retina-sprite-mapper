@@ -3,14 +3,14 @@ Retina Sprite Mapper Mixins
 
 Example project for making retina sprites.
 
-Features:
+**Features:**
 
 * x,y offset & padding
 * adjustable pixel ratio
 * auto-generation of classes (configurable prefix)
 * optional dimensions
 
-@todo: 
+**@todo:**
 
 * Add hover/focus/active options
 * Allow for multiple sprite selectors to be compiled in single @media
