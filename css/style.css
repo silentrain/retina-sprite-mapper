@@ -1,44 +1,38 @@
 /* Page Styling */
-/* line 4, ../sass/style.scss */
-.content {
-  margin: 0 auto;
-  width: 200px;
+/* line 5, ../sass/style.scss */
+body {
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
+.content {
+  margin: 0 auto;
+  width: 12.5em;
+}
+
+/* line 15, ../sass/style.scss */
 ul.iconic li {
-  line-height: 1.5em;
   list-style-image: none;
   list-style-type: none;
   margin-left: 0;
 }
-/* line 12, ../sass/style.scss */
-ul.iconic li p {
+/* line 17, ../sass/style.scss */
+ul.iconic li i, ul.iconic li p {
   display: -moz-inline-box;
   -moz-box-orient: vertical;
   display: inline-block;
   vertical-align: middle;
   *vertical-align: auto;
-  font-size: 12px;
-  font-size: 16px;
+}
+/* line 7, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+ul.iconic li i, ul.iconic li p {
+  *display: inline;
+}
+/* line 18, ../sass/style.scss */
+ul.iconic li p {
   margin: 0;
   padding-left: 0.5em;
-}
-/* line 7, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
-ul.iconic li p {
-  *display: inline;
-}
-/* line 19, ../sass/style.scss */
-ul.iconic li i {
-  display: -moz-inline-box;
-  -moz-box-orient: vertical;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-}
-/* line 7, ../../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
-ul.iconic li i {
-  *display: inline;
 }
 
 /* Retina Sprites */

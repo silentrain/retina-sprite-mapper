@@ -1,23 +1,23 @@
 @import 'retina-sprites';
 
 /* Page Styling */
+
+body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
 .content {
   margin: 0 auto;
   width: 200px;
 }
 
 ul.iconic li {
-    line-height: 1.5em;
-    @include no-bullet;
+  @include no-bullet;
+  i, p { @include inline-block; }
   p {
-    @include inline-block;
-    font-size: 12px;
-    font-size: 16px;
     margin: 0;
     padding-left: 0.5em;
-  }
-  i {
-    @include inline-block;
   }
 }
 
