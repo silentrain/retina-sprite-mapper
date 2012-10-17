@@ -1,0 +1,113 @@
+@import 'compass';
+
+// Sprite-map Generator Generates the Sprite and creates placeholders
+//
+// Create your vars just as you would a standard sprite and pass the vars in.
+//
+// Two arguments accepted:
+// $sprites-normal: Sprite Path and optional spacing and background size.
+// $sprites-retina: Same as above.
+@mixin generate-sprite-map($sprites-normal, $sprites-retina) {
+
+  // Assign a Placeholder Selector that can be Extended
+  %#{sprite-map-name($sprites-normal)}-image-map {
+    background: {
+      image: $sprites-normal;
+      repeat: no-repeat;
+    }
+  }
+
+  // Assign a Placeholder Selector that can be Extended
+  %#{sprite-map-name($sprites-retina)}-image-retina-map {
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) {
+      background: {
+        image: $sprites-retina;
+        repeat: no-repeat;
+      }
+    }
+  }
+
+}
+
+// Retina Sprite adds position and dimensions of the sprite(s).
+//
+// Either a single sprite path can be passed, or if multiple paths are passed
+// the retina sprite dimensions and positioning are output. Placeholder selectors
+// from the generate-sprite-map functions are included to add the selector to the image
+// path in your stylesheet, this keeps things DRY. Pass in the same path variables set up
+// the generate-sprite-map mixin.
+//
+// Six arguments accepted:
+// $sprite: The actual name of the image file you want to use.
+// $sprites-normal: Sprite Path and optional spacing and background size.
+// $sprites-retina: Same as above.
+// $padding: Padding around the sprite, be sure to adjust sprite-map spacing if used.
+// $offset-x: Positioning of Sprite on the x-axis.
+// $offset-y: Positioning of Sprite on the y-axis.
+// $with-dimensions: Boolean true/false if you want dimensions output, defaults to true.
+@mixin retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: true) {
+  $sprite-map: $sprites-normal;
+  $retina-sprite-map: $sprites-retina;
+
+  @if $with-dimensions {
+    // Get Sprite File for Height/Width
+    $sprite-file: sprite-file($sprite-map, $sprite);
+
+    // Put the height/width of the image in
+    width: image-width($sprite-file);
+    height: image-height($sprite-file);
+  }
+
+  @if $padding > 0 {
+    padding: $padding;
+  }
+
+  @extend %#{sprite-map-name($sprite-map)}-image-map !optional;
+  // Call the Sprite'd image's position.
+  background-position: sprite-position($sprite-map, $sprite, $offset-x, $offset-y);
+
+
+  @extend %icons-retina-image-retina-map !optional;
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    @if (nth(sprite-position($retina-sprite-map, $sprite),2) != 2*nth(sprite-position($sprite-map, $sprite),2) ) {
+      background-position: $offset-x round(nth(sprite-position($retina-sprite-map,  $sprite, 0, 2*$offset-y), 2)/ 2);
+    }
+    @if $with-dimensions {
+      @include background-size(ceil(image-width(sprite-path($sprites-retina)) / 2) auto);
+    }
+  }
+
+}
+
+// Retina Sprite Classes creates a class for every sprite passed.
+//
+// The 1x sprite names are passed to create selectors for both 1x and 2x sprites.
+//
+// Six arguments accepted:
+// $sprite: The actual name of the image file you want to use.
+// $sprites-normal: Sprite Path and optional spacing and background size.
+// $sprites-retina: Same as above.
+// $padding: Padding around the sprite, be sure to adjust sprite-map spacing if used.
+// $offset-x: Positioning of Sprite on the x-axis.
+// $offset-y: Positioning of Sprite on the y-axis.
+// $with-dimensions: Boolean true/false if you want dimensions output, defaults to true.
+@mixin retina-sprite-classes($sprites-normal, $sprites-retina, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: true, $prefix: '') {
+    $all-items: sprite-names($sprites-normal);
+    @each $sprite in $all-items{
+    .#{$prefix}#{$sprite} {
+      @include retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding, $offset-x, $offset-y, $with-dimensions);
+    }
+  }
+}
