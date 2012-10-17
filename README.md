@@ -1,7 +1,22 @@
 Retina Sprite Mapper Mixins
 =========================
 
-Example project for making retina sprites, see example.html and retina-sprites.scss for usage examples.
+Example project for making retina sprites.
+
+Features:
+
+* x,y offset & padding
+* adjustable pixel ratio
+* auto-generation of classes (configurable prefix)
+* optional dimensions
+
+@todo: 
+
+* Add hover/focus/active options
+* Allow for multiple sprite selectors to be compiled in single @media
+* Add SVG support as primary option, and offer retina, then standard sprite as fallbacks
+
+See example.html and retina-sprites.scss for implimentation & testing.
 
 Requirements: Sass + Compass
 
