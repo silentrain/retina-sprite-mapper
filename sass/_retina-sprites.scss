@@ -28,7 +28,7 @@
 // $sprites-normal: Sprite Path and optional spacing and background size.
 // $sprites-retina: Same as above.
 // $device-pixel-ratio: Choose a value of 1.3, 1.5 or 2, defaults to 2.
-@mixin generate-sprite-map($sprites-normal, $sprites-retina, $device-pixel-ratio: 2) {
+@mixin generate-sprite-map($sprites-normal, $sprites-retina: false, $device-pixel-ratio: 2) {
 
   // Assign a Placeholder Selector that can be Extended
   %#{sprite-map-name($sprites-normal)}-image-map {
@@ -38,12 +38,14 @@
     }
   }
 
-  // Assign a Placeholder Selector that can be Extended
-  %#{sprite-map-name($sprites-retina)}-image-retina-map {
-    @include retina-ratio($device-pixel-ratio) {
-      background: {
-        image: $sprites-retina;
-        repeat: no-repeat;
+  @if $sprites-retina {
+    // Assign a Placeholder Selector that can be Extended
+    %#{sprite-map-name($sprites-retina)}-image-retina-map {
+      @include retina-ratio($device-pixel-ratio) {
+        background: {
+          image: $sprites-retina;
+          repeat: no-repeat;
+        }
       }
     }
   }
@@ -67,7 +69,7 @@
 // $offset-y: Positioning of Sprite on the y-axis.
 // $device-pixel-ratio: Choose a value of 1.3, 1.5 or 2, defaults to 2.
 // $with-dimensions: Boolean true/false if you want dimensions output, defaults to true.
-@mixin retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: true, $device-pixel-ratio: 2) {
+@mixin retina-sprite-item($sprite, $sprites-normal, $sprites-retina: false, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: true, $device-pixel-ratio: 2) {
   $sprite-map: $sprites-normal;
   $retina-sprite-map: $sprites-retina;
 
@@ -89,14 +91,16 @@
   // Call the Sprite'd image's position.
   background-position: sprite-position($sprite-map, $sprite, $offset-x, $offset-y);
 
-  @extend %icons-retina-image-retina-map !optional;
-  @include retina-ratio($device-pixel-ratio) {
-    // Both sprite maps are rarely the same order, this safeguards against incorrect background placement.
-    @if (nth(sprite-position($retina-sprite-map, $sprite),2) != 2*nth(sprite-position($sprite-map, $sprite),2) ) {
-      background-position: $offset-x round(nth(sprite-position($retina-sprite-map,  $sprite, 0, 2*$offset-y), 2)/ 2);
-    }
-    @if $with-dimensions {
-      @include background-size(ceil(image-width(sprite-path($sprites-retina)) / 2) auto);
+  @if $sprites-retina {
+    @extend %icons-retina-image-retina-map !optional;
+    @include retina-ratio($device-pixel-ratio) {
+      // Both sprite maps are rarely the same order, this safeguards against incorrect background placement.
+      @if (nth(sprite-position($retina-sprite-map, $sprite),2) != 2*nth(sprite-position($sprite-map, $sprite),2) ) {
+        background-position: $offset-x round(nth(sprite-position($retina-sprite-map,  $sprite, 0, 2*$offset-y), 2)/ 2);
+      }
+      @if $with-dimensions {
+        @include background-size(ceil(image-width(sprite-path($sprites-retina)) / 2) auto);
+      }
     }
   }
 
@@ -116,7 +120,7 @@
 // $device-pixel-ratio: Choose a value of 1.3, 1.5 or 2, defaults to 2.
 // $with-dimensions: Boolean true/false if you want dimensions output, defaults to true.
 // $prefix: Optionally add a prefix to generated class names, defaults to no prefix.
-@mixin retina-sprite-classes($sprites-normal, $sprites-retina, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: true, $device-pixel-ratio: 2, $prefix: '') {
+@mixin retina-sprite-classes($sprites-normal, $sprites-retina: false, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: true, $device-pixel-ratio: 2, $prefix: '') {
     $all-items: sprite-names($sprites-normal);
     @each $sprite in $all-items{
     .#{$prefix}#{$sprite} {
