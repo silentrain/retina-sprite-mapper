@@ -14,33 +14,26 @@ footer {
   width: 100%;
 }
 
+ul.iconic {
+  list-style: none;
+}
 ul.iconic li {
   list-style-image: none;
   list-style-type: none;
-  margin-left: 0;
-}
-ul.iconic li i, ul.iconic li p {
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-}
-ul.iconic li p {
-  margin: 0;
-  padding-left: 0.5em;
+  margin: 0.75em 0;
+  padding-left: 1.5em;
+  line-height: 1em;
 }
 
 /* Retina Sprites */
-.icon-aperture, .icon-aperture_alt, .icon-arrow_down, .icon-arrow_down_alt1, .icon-arrow_down_alt2, .icon-arrow_left, .icon-arrow_left_alt1, .icon-arrow_left_alt2, .icon-arrow_right, .icon-arrow_right_alt1, .icon-arrow_right_alt2, .icon-arrow_up, .icon-arrow_up_alt1, .icon-arrow_up_alt2, .icon-article, .icon-at, .icon-bars, .icon-bolt, .icon-book_alt, .icon-box, .icon-brush, .icon-brush_alt, .icon-calendar, .icon-calendar_alt_fill, .icon-calendar_alt_stroke, .icon-camera, .icon-cd, .icon-chart, .icon-chat, .icon-chat_alt_fill, .icon-chat_alt_stroke, .icon-check_alt, .icon-clock, .icon-cloud_download, .icon-cloud_upload, .icon-cog, .icon-compass, .icon-cursor {
-  background-image: url('../images/icons-s3cba2d8ded.png');
+.icon-aperture, .icon-article, .icon-book_alt, .icon-box, .icon-camera, .icon-chart, .icon-cog, .icon-compass, .icon-cursor {
+  background-image: url('../images/icons-s3dc32525e4.png');
   background-repeat: no-repeat;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-aperture, .icon-aperture_alt, .icon-arrow_down, .icon-arrow_down_alt1, .icon-arrow_down_alt2, .icon-arrow_left, .icon-arrow_left_alt1, .icon-arrow_left_alt2, .icon-arrow_right, .icon-arrow_right_alt1, .icon-arrow_right_alt2, .icon-arrow_up, .icon-arrow_up_alt1, .icon-arrow_up_alt2, .icon-article, .icon-at, .icon-bars, .icon-bolt, .icon-book_alt, .icon-box, .icon-brush, .icon-brush_alt, .icon-calendar, .icon-calendar_alt_fill, .icon-calendar_alt_stroke, .icon-camera, .icon-cd, .icon-chart, .icon-chat, .icon-chat_alt_fill, .icon-chat_alt_stroke, .icon-check_alt, .icon-clock, .icon-cloud_download, .icon-cloud_upload, .icon-cog, .icon-compass, .icon-cursor {
-    background-image: url('../images/icons-retina-s66fe6f5586.png');
+  .icon-aperture, .icon-article, .icon-book_alt, .icon-box, .icon-camera, .icon-chart, .icon-cog, .icon-compass, .icon-cursor {
+    background-image: url('../images/icons-retina-s2f0a20924f.png');
     background-repeat: no-repeat;
   }
 }
@@ -48,206 +41,10 @@ ul.iconic li p {
 .icon-aperture {
   width: 16px;
   height: 16px;
-  background-position: 0 -17px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-aperture {
-    background-position: 0 0;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-aperture_alt {
-  width: 16px;
-  height: 16px;
   background-position: 0 0;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-aperture_alt {
-    background-position: 0 -51px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_down {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -476px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_down {
-    background-position: 0 -442px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_down_alt1 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -204px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_down_alt1 {
-    background-position: 0 -238px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_down_alt2 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -306px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_down_alt2 {
-    background-position: 0 -323px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_left {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -561px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_left {
-    background-position: 0 -544px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_left_alt1 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -255px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_left_alt1 {
-    background-position: 0 -306px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_left_alt2 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -442px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_left_alt2 {
-    background-position: 0 -357px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_right {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -510px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_right {
-    background-position: 0 -527px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_right_alt1 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -374px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_right_alt1 {
-    background-position: 0 -340px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_right_alt2 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -425px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_right_alt2 {
-    background-position: 0 -374px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_up {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -357px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_up {
-    background-position: 0 -391px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_up_alt1 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -221px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_up_alt1 {
-    background-position: 0 -255px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-arrow_up_alt2 {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -323px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-arrow_up_alt2 {
-    background-position: 0 -289px;
+  .icon-aperture {
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -258,54 +55,11 @@ ul.iconic li p {
 .icon-article {
   width: 16px;
   height: 16px;
-  background-position: 0 -612px;
+  background-position: 0 -168px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-article {
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-at {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -68px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-at {
-    background-position: 0 -17px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-bars {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -629px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-bars {
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-bolt {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -391px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-bolt {
-    background-position: 0 -408px;
+    background-position: 0 -148px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -316,11 +70,11 @@ ul.iconic li p {
 .icon-book_alt {
   width: 16px;
   height: 16px;
-  background-position: 0 -544px;
+  background-position: 0 -126px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-book_alt {
-    background-position: 0 -510px;
+    background-position: 0 -111px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -331,86 +85,11 @@ ul.iconic li p {
 .icon-box {
   width: 16px;
   height: 16px;
-  background-position: 0 -595px;
+  background-position: 0 -147px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-box {
-    background-position: 0 -578px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-brush {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -408px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-brush {
-    background-position: 0 -425px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-brush_alt {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -493px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-brush_alt {
-    background-position: 0 -476px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-calendar {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -578px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-calendar {
-    background-position: 0 -595px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-calendar_alt_fill {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -459px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-calendar_alt_fill {
-    background-position: 0 -493px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-calendar_alt_stroke {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -527px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-calendar_alt_stroke {
-    background-position: 0 -561px;
+    background-position: 0 -130px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -421,26 +100,11 @@ ul.iconic li p {
 .icon-camera {
   width: 16px;
   height: 16px;
-  background-position: 0 -136px;
+  background-position: 0 -63px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-camera {
-    background-position: 0 -187px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-cd {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -340px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-cd {
-    background-position: 0 -272px;
+    background-position: 0 -74px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -451,116 +115,11 @@ ul.iconic li p {
 .icon-chart {
   width: 16px;
   height: 16px;
-  background-position: 0 -102px;
+  background-position: 0 -42px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-chart {
-    background-position: 0 -119px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-chat {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -34px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-chat {
-    background-position: 0 -68px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-chat_alt_fill {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -187px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-chat_alt_fill {
-    background-position: 0 -153px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-chat_alt_stroke {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -51px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-chat_alt_stroke {
-    background-position: 0 -85px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-check_alt {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -272px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-check_alt {
-    background-position: 0 -221px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-clock {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -119px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-clock {
-    background-position: 0 -102px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-cloud_download {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -238px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-cloud_download {
-    background-position: 0 -170px;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
-  }
-}
-
-.icon-cloud_upload {
-  width: 16px;
-  height: 16px;
-  background-position: 0 -170px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icon-cloud_upload {
-    background-position: 0 -204px;
+    background-position: 0 -37px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -571,11 +130,11 @@ ul.iconic li p {
 .icon-cog {
   width: 16px;
   height: 16px;
-  background-position: 0 -153px;
+  background-position: 0 -84px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-cog {
-    background-position: 0 -136px;
+    background-position: 0 -56px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -586,11 +145,11 @@ ul.iconic li p {
 .icon-compass {
   width: 16px;
   height: 16px;
-  background-position: 0 -85px;
+  background-position: 0 -21px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-compass {
-    background-position: 0 -34px;
+    background-position: 0 -19px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;
@@ -601,11 +160,11 @@ ul.iconic li p {
 .icon-cursor {
   width: 16px;
   height: 16px;
-  background-position: 0 -289px;
+  background-position: 0 -105px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icon-cursor {
-    background-position: 0 -459px;
+    background-position: 0 -93px;
     -webkit-background-size: 16px auto;
     -moz-background-size: 16px auto;
     -o-background-size: 16px auto;

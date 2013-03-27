@@ -1,4 +1,5 @@
-@import 'compass';
+@import "compass/utilities/sprites"; // Include compass sprite helpers
+@import "compass/css3/background-size"; // Include helper to calc background size
 
 // Pixel Ratio Mixin
 //
