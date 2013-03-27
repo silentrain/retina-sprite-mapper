@@ -17,6 +17,7 @@ footer {
   width: 100%;
 }
 
+/* Standard List */
 ul.iconic {
   list-style: none;
   li {
@@ -24,18 +25,33 @@ ul.iconic {
     list-style-type: none;
     margin: 0.75em 0;
     padding-left: 1.5em;
-    line-height: 1em;
+    line-height: 1.1em;
   }
 }
+
+// /* Image replacement */
+// ul.iconic {
+//   list-style: none;
+//   li {
+//     list-style-image: none;
+//     list-style-type: none;
+//     margin: 0.75em 0;
+//     padding-left: 0;
+//     // Image replacement hack
+//     display: block;
+//     overflow: hidden;
+//     text-indent: -9999px;
+//   }
+// }
 
 /* Retina Sprites */
 
 // Assign paths using standard Compass sprite method.
 $sprites: sprite-map("icons/*.png", $spacing: 5px); // import normal sprites
-$sprites2x: sprite-map("icons-retina/*.png", $spacing: 5px); // import 2x sprites
+$sprites2x: sprite-map("icons-retina/*.png", $spacing: 8px); // import 2x sprites
 
 // Creates the sprite maps and placeholder classes used by the other mixins.
-@include generate-sprite-map($sprites, $sprites2x);
+@include generate-sprite-map($sprites, $sprites2x, $padding: 1px);
 
 // Allows for pre-defined auto-generated classes.
 @include retina-sprite-classes($sprites, $sprites2x, $prefix: 'icon-');
