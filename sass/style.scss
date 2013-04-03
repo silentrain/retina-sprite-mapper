@@ -9,7 +9,7 @@ body {
 
 .content {
   margin: 0 auto;
-  width: 18em;
+  width: 12em;
 }
 
 footer {
@@ -17,32 +17,32 @@ footer {
   width: 100%;
 }
 
-// /* Standard List */
-// ul.iconic {
-//   list-style: none;
-//   li {
-//     list-style-image: none;
-//     list-style-type: none;
-//     margin: 0.75em 0;
-//     padding-left: 1.5em; // size of icon plus some space
-//     line-height: 1.1em;
-//   }
-// }
-
-/* Image replacement */
+/* Standard List */
 ul.iconic {
   list-style: none;
   li {
     list-style-image: none;
     list-style-type: none;
     margin: 0.75em 0;
-    padding-left: 0;
-    // Image replacement hack
-    display: block;
-    overflow: hidden;
-    text-indent: -9999px;
+    padding-left: 1.5em; // size of icon plus some space
+    line-height: 1.1em;
   }
 }
+
+/* Image replacement */
+// ul.iconic {
+//   list-style: none;
+//   li {
+//     list-style-image: none;
+//     list-style-type: none;
+//     margin: 0.75em 0;
+//     padding-left: 0;
+//     // Image replacement hack
+//     display: block;
+//     overflow: hidden;
+//     text-indent: -9999px;
+//   }
+// }
 
 /* Retina Sprites */
 
@@ -53,16 +53,16 @@ $sprites2x: sprite-map("icons-retina/*.png", $spacing: 8px); // import 2x sprite
 // Creates the sprite maps and placeholder classes used by the other mixins.
 @include generate-sprite-map($sprites, $sprites2x, $padding: 1px);
 
-// Allows for pre-defined auto-generated classes.
+// // Allows for pre-defined auto-generated classes.
 @include retina-sprite-classes($sprites, $sprites2x, $prefix: 'icons-');
 
-// This method allows for selective sprite placement.
+//This method allows for selective sprite placement.
 // .icons-aperture {
 //  @include retina-sprite-item('aperture', $sprites, $sprites2x);
 // }
 
 // /* Regular Compass Sprites */
 
-// $icons-spacing: 8px;
+// $icons-spacing: 9px;
 // @import "icons/*.png";
 // @include all-icons-sprites;

@@ -136,7 +136,7 @@ $retina-pixel-ratio: 2 !default;
   background-position: sprite-position($sprite-map, $sprite, $offset-x, $offset-y);
 
   @if $sprites-retina {
-    @extend %icons-retina-image-retina-map !optional;
+    @extend %#{sprite-map-name($sprites-retina)}-image-retina-map !optional;
     @include retina-ratio($device-pixel-ratio) {
       // Both sprite maps are rarely the same order, this safeguards against incorrect background placement.
       @if (nth(sprite-position($retina-sprite-map, $sprite),2) != 2*nth(sprite-position($sprite-map, $sprite),2) ) {
