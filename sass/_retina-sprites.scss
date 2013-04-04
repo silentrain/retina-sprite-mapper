@@ -153,6 +153,19 @@ $retina-pixel-ratio: 2 !default;
   // Call the Sprite'd image's position.
   background-position: sprite-position($sprite-map, $sprite, $offset-x, $offset-y);
 
+  @if sprite_has_selector($sprites-normal, $sprite, hover) {
+    $sprite_hover: $sprite + _hover;
+    &:hover{
+      background-position: sprite-position($sprite-map, $sprite_hover, $offset-x, $offset-y);
+    }
+  }
+  @if sprite_has_selector($sprites-normal, $sprite, active) {
+    $sprite_active: $sprite + _active;
+    &:active{
+      background-position: sprite-position($sprite-map, $sprite_active, $offset-x, $offset-y);
+    }
+  }
+
   @if $sprites-retina {
     @if $classes-to-base {
       @extend %#{sprite-map-name($sprites-retina)}-image-retina-map !optional;
@@ -160,7 +173,22 @@ $retina-pixel-ratio: 2 !default;
     @include retina-ratio($device-pixel-ratio) {
       // Both sprite maps are rarely the same order, this safeguards against incorrect background placement.
       @if (nth(sprite-position($retina-sprite-map, $sprite),2) != 2*nth(sprite-position($sprite-map, $sprite),2) ) {
-        background-position: $offset-x round(nth(sprite-position($retina-sprite-map,  $sprite, 0, 2*$offset-y), 2)/ 2);
+        $pos: sprite-position($retina-sprite-map, $sprite, 0, 2*$offset-y);
+        background-position: $offset-x round(nth($pos, 2)/ 2);
+      }
+      @if sprite_has_selector($sprites-retina, $sprite, hover) {
+        $sprite_hover: $sprite + _hover;
+        &:hover{
+          $pos: sprite-position($retina-sprite-map, $sprite_hover, 0, 2*$offset-y);
+          background-position: $offset-x round(nth($pos, 2)/ 2);
+        }
+      }
+      @if sprite_has_selector($sprites-retina, $sprite, active) {
+        $sprite_active: $sprite + _active;
+        &:active{
+          $pos: sprite-position($retina-sprite-map, $sprite_active, 0, 2*$offset-y);
+          background-position: $offset-x round(nth($pos, 2)/ 2);
+        }
       }
       @if $with-dimensions {
         @include background-size(ceil(image-width(sprite-path($sprites-retina)) / $retina-pixel-ratio) auto);
@@ -188,8 +216,11 @@ $retina-pixel-ratio: 2 !default;
 @mixin retina-sprite-classes($sprites-normal, $sprites-retina: false, $padding: 0, $offset-x: 0, $offset-y: 0, $with-dimensions: false, $device-pixel-ratio: $retina-pixel-ratio, $prefix: '', $classes-to-base: true) {
     $all-items: sprite-names($sprites-normal);
     @each $sprite in $all-items{
-    .#{$prefix}#{$sprite} {
-      @include retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding, $offset-x, $offset-y, $with-dimensions, $retina-pixel-ratio, $classes-to-base);
+    @if sprite_does_not_have_parent($sprites-normal, $sprite) {
+      $full-sprite-name: "#{$prefix}-#{$sprite}";
+      .#{$full-sprite-name} {
+        @include retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding, $offset-x, $offset-y, $with-dimensions, $retina-pixel-ratio, $classes-to-base);
+      }
     }
   }
 }
