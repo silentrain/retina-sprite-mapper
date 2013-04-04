@@ -28,16 +28,15 @@ ul.iconic li {
 
 /* Image replacement */
 /* Retina Sprites */
-.icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
+.icons, .icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
   background-image: url('../images/icons-s3dc32525e4.png');
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
-  padding: 1px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
+  .icons, .icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
     background-image: url('../images/icons-retina-s56b1101d61.png');
     background-repeat: no-repeat;
     -webkit-background-size: 16px auto;

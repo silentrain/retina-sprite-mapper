@@ -51,18 +51,12 @@ $sprites: sprite-map("icons/*.png", $spacing: 5px); // import normal sprites
 $sprites2x: sprite-map("icons-retina/*.png", $spacing: 8px); // import 2x sprites
 
 // Creates the sprite maps and placeholder classes used by the other mixins.
-@include generate-sprite-map($sprites, $sprites2x, $padding: 1px);
+@include generate-sprite-map($sprites, $sprites2x);
 
-// // Allows for pre-defined auto-generated classes.
+// Allows for pre-defined auto-generated classes.
 @include retina-sprite-classes($sprites, $sprites2x, $prefix: 'icons-');
 
 //This method allows for selective sprite placement.
 // .icons-aperture {
 //  @include retina-sprite-item('aperture', $sprites, $sprites2x);
 // }
-
-// /* Regular Compass Sprites */
-
-// $icons-spacing: 9px;
-// @import "icons/*.png";
-// @include all-icons-sprites;
