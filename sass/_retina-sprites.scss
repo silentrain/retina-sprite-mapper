@@ -220,7 +220,7 @@ $retina-pixel-ratio: 2 !default;
     $all-items: sprite-names($sprites-normal);
     @each $sprite in $all-items{
     @if sprite_does_not_have_parent($sprites-normal, $sprite) {
-      $full-sprite-name: "#{$prefix}-#{$sprite}";
+      $full-sprite-name: "#{$prefix}#{$sprite}";
       .#{$full-sprite-name} {
         @include retina-sprite-item($sprite, $sprites-normal, $sprites-retina, $padding, $offset-x, $offset-y, $with-dimensions, $retina-pixel-ratio, $classes-to-base);
       }
