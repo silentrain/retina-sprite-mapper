@@ -82,7 +82,7 @@ $retina-pixel-ratio: 2 !default;
   }
 
   @if $base-class {
-      $base-class: ".#{$base-class}";
+      $base-class: "#{$base-class}";
     } @else {
       $base-class: "%#{sprite-map-name($sprites-normal)}";
     }
