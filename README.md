@@ -11,10 +11,10 @@ Example project for making retina sprites.
 * adjustable pixel ratio
 * auto-generation of classes (configurable prefix)
 * optional dimensions
+* hover/focus/active options
 
 **@todo:**
 
-* Add hover/focus/active options
 * Allow for multiple sprite selectors to be compiled in single @media
 * Add option for SVG as an alternative to retina
 
