@@ -28,7 +28,7 @@ $sprites2x: sprite-map("icons-retina/*.png", $spacing: 2px); // import 2x sprite
 @include generate-sprite-map($sprites, $sprites2x);
 
 /* Allows for pre-defined auto-generated classes. */
-@include retina-sprite-classes($sprites, $sprites2x, $prefix: '.icon-');
+@include retina-sprite-classes($sprites, $sprites2x, $prefix: 'icons-');
 
 /* This method allows for selective sprite placement. */
 .icon-target {
