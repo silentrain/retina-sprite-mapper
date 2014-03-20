@@ -28,155 +28,96 @@ ul.iconic li {
 
 /* Image replacement */
 /* Retina Sprites */
-.icons, .icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
-  background-image: url('../images/icons-sd6cebe62a6.png');
+.icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
+  background-image: url('../images/icons-s0d36b87f0c.png');
   background-repeat: no-repeat;
   width: 16px;
   height: 16px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icons, .icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
-    background-image: url('../images/icons-retina-s307c23412f.png');
+  .icons-aperture, .icons-article, .icons-book_alt, .icons-box, .icons-camera, .icons-chart, .icons-cog, .icons-compass, .icons-cursor {
+    background-image: url('../images/icons-retina-s38cc86ee8f.png');
     background-repeat: no-repeat;
-    -webkit-background-size: 16px auto;
-    -moz-background-size: 16px auto;
-    -o-background-size: 16px auto;
-    background-size: 16px auto;
+    -moz-background-size: 16px 176px;
+    -o-background-size: 16px 176px;
+    -webkit-background-size: 16px 176px;
+    background-size: 16px 176px;
   }
 }
 
 .icons-aperture {
-  background-position: 0 -21px;
-}
-.icons-aperture:hover {
   background-position: 0 0;
 }
+
+.icons-article {
+  background-position: 0 -21px;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icons-aperture {
-    background-position: 0 0;
-  }
-  .icons-aperture:hover {
+  .icons-article {
     background-position: 0 -20px;
   }
 }
 
-.icons-article {
-  background-position: 0 -357px;
-}
-.icons-article:hover {
-  background-position: 0 -315px;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .icons-article {
-    background-position: 0 -340px;
-  }
-  .icons-article:hover {
-    background-position: 0 -320px;
-  }
-}
-
 .icons-book_alt {
-  background-position: 0 -273px;
-}
-.icons-book_alt:hover {
-  background-position: 0 -252px;
+  background-position: 0 -42px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-book_alt {
-    background-position: 0 -260px;
-  }
-  .icons-book_alt:hover {
-    background-position: 0 -240px;
+    background-position: 0 -40px;
   }
 }
 
 .icons-box {
-  background-position: 0 -336px;
-}
-.icons-box:hover {
-  background-position: 0 -294px;
+  background-position: 0 -63px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-box {
-    background-position: 0 -300px;
-  }
-  .icons-box:hover {
-    background-position: 0 -280px;
+    background-position: 0 -60px;
   }
 }
 
 .icons-camera {
-  background-position: 0 -210px;
-}
-.icons-camera:hover {
-  background-position: 0 -147px;
+  background-position: 0 -84px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-camera {
-    background-position: 0 -180px;
-  }
-  .icons-camera:hover {
-    background-position: 0 -160px;
+    background-position: 0 -80px;
   }
 }
 
 .icons-chart {
-  background-position: 0 -84px;
-}
-.icons-chart:hover {
-  background-position: 0 -63px;
+  background-position: 0 -105px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-chart {
-    background-position: 0 -80px;
-  }
-  .icons-chart:hover {
     background-position: 0 -100px;
   }
 }
 
 .icons-cog {
-  background-position: 0 -168px;
-}
-.icons-cog:hover {
   background-position: 0 -126px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-cog {
-    background-position: 0 -140px;
-  }
-  .icons-cog:hover {
     background-position: 0 -120px;
   }
 }
 
 .icons-compass {
-  background-position: 0 -105px;
-}
-.icons-compass:hover {
-  background-position: 0 -42px;
+  background-position: 0 -147px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-compass {
-    background-position: 0 -60px;
-  }
-  .icons-compass:hover {
-    background-position: 0 -40px;
+    background-position: 0 -140px;
   }
 }
 
 .icons-cursor {
-  background-position: 0 -231px;
-}
-.icons-cursor:hover {
-  background-position: 0 -189px;
+  background-position: 0 -168px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .icons-cursor {
-    background-position: 0 -220px;
-  }
-  .icons-cursor:hover {
-    background-position: 0 -200px;
+    background-position: 0 -160px;
   }
 }
